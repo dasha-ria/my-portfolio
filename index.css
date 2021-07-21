@@ -1,0 +1,52 @@
+* {
+    font-family: "Open Sans", sans-serif;
+}
+
+body {
+    margin: 0 auto;
+}
+
+.intro-text {
+    font-size: 20px;
+    font-variant: normal;
+    font-weight: normal;
+}
+
+.color-text {
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-size: 30px;
+    background: #FE555E;
+    background: background: -webkit-linear-gradient(to right, #FE555E 0%, #FDBC1D 90%);
+    background: -moz-linear-gradient(to right, #FE555E 0%, #FDBC1D 90%);
+    background: linear-gradient(to right, #FE555E 0%, #FDBC1D 90%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.small-text {
+    font-size: 14px;
+    font-variant: normal;
+    font-weight: normal;
+}
+
+.copyright-footer {
+    font-size: 10px;
+}
+
+.colorful-footer {
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    background: #FE555E;
+    background: background: -webkit-linear-gradient(to right, #FE555E 0%, #FDBC1D 8%);
+    background: -moz-linear-gradient(to right, #FE555E 0%, #FDBC1D 8%);
+    background: linear-gradient(to right, #FE555E 0%, #FDBC1D 8%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.pic-of-me {
+    width: 20%;
+    height: auto;
+}
