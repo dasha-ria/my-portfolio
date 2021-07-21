@@ -1,0 +1,23 @@
+<svg id="experience" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="116.16" height="116.16" viewBox="0 0 116.16 116.16">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.244" y1="-0.242" x2="1.289" y2="0.86" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#fe555e"/>
+      <stop offset="1" stop-color="#fdbc1d"/>
+    </linearGradient>
+  </defs>
+  <g id="Group_2" data-name="Group 2" transform="translate(25.061 41.2)">
+    <g id="Group_1" data-name="Group 1">
+      <path id="Path_4" data-name="Path 4" d="M145.962,181.6h-8.113l-9.583,14.375L118.628,181.6h-8.167l13.776,19.6L110.9,220.259h8.167l9.2-13.83,9.148,13.83h8.113L132.187,201.2Z" transform="translate(-110.461 -181.6)" fill="url(#linear-gradient)"/>
+    </g>
+  </g>
+  <g id="Group_4" data-name="Group 4">
+    <g id="Group_3" data-name="Group 3">
+      <path id="Path_5" data-name="Path 5" d="M0,0V116.16H116.16V0ZM109.354,109.354H6.806V6.806H109.354Z" fill="url(#linear-gradient)"/>
+    </g>
+  </g>
+  <g id="Group_6" data-name="Group 6" transform="translate(60.344 40.111)">
+    <g id="Group_5" data-name="Group 5">
+      <path id="Path_6" data-name="Path 6" d="M295.655,208.163V176.8h-7.3v16.226a11.053,11.053,0,0,0-9.637-5.5c-6.766,0-12.741,5.881-12.741,14.756,0,7.828,5.182,14.81,13.558,14.81a11.4,11.4,0,0,0,9.909-5.5s-.477,5.336,4.791,5.336a16.591,16.591,0,0,0,3.1-.381v-6.207C296.725,210.305,295.655,208.926,295.655,208.163Zm-7.3-2.069c-.254.69-2.337,4.792-6.915,4.792-4.837,0-7.9-4.282-7.9-8.44,0-3.783,2.491-8.712,7.46-8.712,4.446,0,7.06,4.756,7.351,5.554Z" transform="translate(-265.98 -176.8)" fill="url(#linear-gradient)"/>
+    </g>
+  </g>
+</svg>

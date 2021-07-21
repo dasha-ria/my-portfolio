@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="116.16" height="116.16" viewBox="0 0 116.16 116.16">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.26" y1="0.128" x2="0.697" y2="0.869" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#fe555e"/>
+      <stop offset="1" stop-color="#fdbc1d"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-2" x1="0.244" y1="-0.242" x2="1.289" y2="0.86" xlink:href="#linear-gradient"/>
+  </defs>
+  <g id="Group_15" data-name="Group 15" transform="translate(-255 -819)">
+    <path id="figma-brands" d="M49.719,19.209A9.6,9.6,0,0,0,49.719,0H30.51a9.6,9.6,0,0,0,0,19.2,9.6,9.6,0,0,0,0,19.209,9.6,9.6,0,1,0,9.6,9.61V19.209Zm0,0a9.6,9.6,0,1,0,9.6,9.6,9.6,9.6,0,0,0-9.6-9.6Z" transform="translate(272.968 848.273)" fill="url(#linear-gradient)"/>
+    <g id="experience" transform="translate(215 909)">
+      <g id="Group_4" data-name="Group 4" transform="translate(40 -90)">
+        <g id="Group_3" data-name="Group 3">
+          <path id="Path_5" data-name="Path 5" d="M0,0V116.16H116.16V0ZM109.354,109.354H6.806V6.806H109.354Z" fill="url(#linear-gradient-2)"/>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>
