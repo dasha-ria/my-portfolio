@@ -31,29 +31,41 @@ li {
     color: black;
 }
 
+.active-menu {
+    position: relative;
+}
+
 .active-menu:after {
     content: "";
     position: absolute;
     width: 100%;
-    height: 0.2rem;
-    background-color: #5D5CE6;
-    border-radius: 0.1rem;
+    height: 1px;
+    background-color: #FE555E;
     bottom: 0;
     left: 0;
 }
 
 .intro-text {
-    font-size: 20px;
+    font-size: 25px;
     font-variant: normal;
     font-weight: normal;
+}
+
+.intro-text-1 {
+    margin-bottom: 0;
+    margin-top: 60px;
+}
+
+.intro-text-2 {
+    margin: 0;
 }
 
 .color-text {
     font-family: "Roboto", sans-serif;
     font-weight: 700;
-    font-size: 30px;
+    font-size: 35px;
     background: #FE555E;
-    background: background: -webkit-linear-gradient(to right, #FE555E 0%, #FDBC1D 90%);
+    background: -webkit-linear-gradient(to right, #FE555E 0%, #FDBC1D 90%);
     background: -moz-linear-gradient(to right, #FE555E 0%, #FDBC1D 90%);
     background: linear-gradient(to right, #FE555E 0%, #FDBC1D 90%);
     -webkit-background-clip: text;
@@ -64,6 +76,8 @@ li {
     font-size: 12px;
     font-variant: normal;
     font-weight: normal;
+    margin-top: 25px;
+    margin-bottom: 20px;
 }
 
 .see-work {
@@ -77,12 +91,15 @@ li {
     border: none;
     border-radius: 10px;
     letter-spacing: 1.5px;
+    cursor: pointer;
 }
 
 .skills {
     font-size: 25px;
     font-weight: bold;
-    letter-spacing: 1px
+    letter-spacing: 1px;
+    margin-top: 10vw;
+    margin-bottom: 20px;
 }
 
 .skill-pic {
@@ -92,16 +109,17 @@ li {
 
 .skill-set {
     display: flex;
-    gap: 20px;
+    gap: 25px;
 }
 
 footer {
-    margin-top: 80px;
+    margin-top: 200px;
 }
 
 .copyright-footer {
     font-size: 10px;
     text-align: center;
+    margin-bottom: 10px;
 }
 
 .colorful-footer {
@@ -115,11 +133,14 @@ footer {
     background: linear-gradient(to right, #FE555E 45%, #FDBC1D 55%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+    margin: 0;
 }
 
 .pic-of-me {
     width: 30vw;
     height: auto;
+    margin-top: 30px;
+    max-width: 400px;
 }
 
 .grid-container {
@@ -134,4 +155,8 @@ footer {
 
 .right-grid {
     grid-area: right;
+}
+
+.contact-me {
+    text-decoration: none;
 }
