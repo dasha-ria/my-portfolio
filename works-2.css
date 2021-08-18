@@ -39,6 +39,8 @@ main {
     width: 100px;
     color: #FE555E;
     border-right: 2px solid #FE555E;
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
 }
 
 .work-category-button-noborder {
@@ -48,37 +50,4 @@ main {
     width: 100px;
     color: #FE555E;
     border-radius: 9px;
-}
-
-.pics {
-    margin-top: 30px;
-    display: flex;
-    gap: 110px;
-    align-items: baseline;
-}
-
-.pics-row-2 {
-    margin-top: 50px;
-    display: flex;
-    gap: 110px;
-    align-items: baseline;
-}
-
-.pics-row-3 {
-    margin-top: 50px;
-    display: flex;
-    gap: 110px;
-    align-items: baseline;
-}
-
-.vertical-pic {
-    width: 200px;
-    height: auto;
-    border-radius: 10px;
-}
-
-.horizontal-pic {
-    width: 300px;
-    height: auto;
-    border-radius: 10px;
 }

@@ -1,3 +1,69 @@
 * {
     font-family: "Open Sans", sans-serif;
 }
+
+body {
+    margin: 0 auto;
+}
+
+main {
+    margin-left: 100px;
+}
+
+.pic-of-me {
+    width: 35vw;
+    height: auto;
+}
+
+.title {
+    margin-top: 100px;
+    font-size: 30px;
+}
+
+.colorful-title {
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-size: 30px;
+    background: #FE555E;
+    background: -webkit-linear-gradient(to right, #FE555E 0%, #FDBC1D 90%);
+    background: -moz-linear-gradient(to right, #FE555E 0%, #FDBC1D 90%);
+    background: linear-gradient(to right, #FE555E 0%, #FDBC1D 90%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.grid {
+    display: grid;
+    grid-template-areas: "left right";
+    gap: 10px;
+    margin-top: 60px;
+}
+
+.left-grid {
+    grid-area: left;
+}
+
+.right-grid {
+    grid-area: right;
+}
+
+.contact-flex {
+    display: flex;
+    gap: 15px;
+}
+
+.contact-pic {
+    width: 40px;
+    height: auto;
+}
+
+.contact-container {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.contact-text {
+    font-size: 20px;
+    margin: 0;
+}
