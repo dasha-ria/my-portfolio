@@ -50,6 +50,18 @@ main {
     border-radius: 9px;
 }
 
+.procreate-info {
+    margin-top: 20px;
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+.procreate-icon {
+    width: 40px;
+    height: auto;
+}
+
 .pics {
     margin-top: 30px;
     display: flex;
