@@ -30,6 +30,7 @@ main {
     width: 100px;
     border-radius: 5px;
     color: white;
+    cursor: pointer;
 }
 
 .work-category-button-border {
@@ -39,6 +40,7 @@ main {
     width: 100px;
     color: #FE555E;
     border-right: 2px solid #FE555E;
+    cursor: pointer;
 }
 
 .work-category-button-noborder {
@@ -48,6 +50,7 @@ main {
     width: 100px;
     color: #FE555E;
     border-radius: 9px;
+    cursor: pointer;
 }
 
 .procreate-info {

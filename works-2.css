@@ -30,6 +30,7 @@ main {
     width: 100px;
     border-radius: 5px;
     color: white;
+    cursor: pointer;
 }
 
 .work-category-button-border {
@@ -41,6 +42,7 @@ main {
     border-right: 2px solid #FE555E;
     border-top-left-radius: 8px;
     border-bottom-left-radius: 8px;
+    cursor: pointer;
 }
 
 .work-category-button-noborder {
@@ -50,6 +52,7 @@ main {
     width: 100px;
     color: #FE555E;
     border-radius: 9px;
+    cursor: pointer;
 }
 
 .works-flex {
