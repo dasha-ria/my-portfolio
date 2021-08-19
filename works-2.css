@@ -51,3 +51,81 @@ main {
     color: #FE555E;
     border-radius: 9px;
 }
+
+.works-flex {
+    margin-top: 30px;
+    display: flex;
+    gap: 150px;
+}
+
+.work-border {
+    width: 250px;
+    height: 250px;
+    border: 2px solid black;
+    border-radius: 10px;
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    flex-direction: column;
+}
+
+.work-midborder {
+    margin-top: 10px;
+    width: 250px;
+    height: 2px;
+    background-color: black;
+    margin: 0;
+}
+
+.work-pic {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    width: 150px;
+    height: auto;
+}
+
+.work-pic2 {
+    width: 230px;
+    height: auto;
+}
+
+.work-pic3 {
+    width: 240px;
+    height: auto;
+    border-radius: 5px;
+}
+
+.htmlwork-pic1 {
+    width: 250px;
+    height: auto;
+    border-top-left-radius: 7px;
+    border-top-right-radius: 7px;
+}
+
+.htmlwork-pic2 {
+    width: 250px;
+    height: 142px;
+    border-top-left-radius: 7px;
+    border-top-right-radius: 7px;
+}
+
+.work-title {
+    margin: 0;
+    margin-top: 5px;
+}
+
+.made-icons {
+    display: flex;
+    gap: 10px;
+    align-items: baseline;
+}
+
+.work-made {
+    margin: 0;
+    margin-top: 10px;
+}
+
+.individual-icon {
+    width: 20px;
+    height: auto;
+}
