@@ -55,15 +55,38 @@ main {
     cursor: pointer;
 }
 
+.program-info-flex {
+    display: flex;
+    margin-top: 20px;
+    gap: 50px;
+    align-items: center;
+}
+
+.program-wrap {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.program-icon {
+    width: 40px;
+    height: auto;
+}
+
+.js-icon {
+    width: 40px;
+    height: 41px;
+}
+
 .works-flex {
     margin-top: 30px;
     display: flex;
-    gap: 150px;
+    gap: 100px;
 }
 
 .work-border {
-    width: 250px;
-    height: 250px;
+    width: 300px;
+    height: 300px;
     border: 2px solid black;
     border-radius: 10px;
     display: flex;
@@ -72,9 +95,29 @@ main {
     flex-direction: column;
 }
 
+.work-border-short {
+    width: 300px;
+    height: 250px;
+    border: 2px solid black;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.work-border-medium {
+    width: 300px;
+    height: 270px;
+    border: 2px solid black;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
 .work-midborder {
     margin-top: 10px;
-    width: 250px;
+    width: 300px;
     height: 2px;
     background-color: black;
     margin: 0;
@@ -83,33 +126,41 @@ main {
 .work-pic {
     margin-top: 5px;
     margin-bottom: 5px;
-    width: 150px;
+    width: 200px;
     height: auto;
 }
 
 .work-pic2 {
-    width: 230px;
+    width: 300px;
     height: auto;
+    max-height: 210px;
 }
 
 .work-pic3 {
-    width: 240px;
-    height: auto;
-    border-radius: 5px;
+    width: 300px;
+    height: 210px;
+    border-radius: 10px;
 }
 
 .htmlwork-pic1 {
-    width: 250px;
+    width: 300px;
     height: auto;
     border-top-left-radius: 7px;
     border-top-right-radius: 7px;
 }
 
 .htmlwork-pic2 {
-    width: 250px;
-    height: 142px;
+    width: 300px;
+    height: 171px;
     border-top-left-radius: 7px;
     border-top-right-radius: 7px;
+}
+
+.uxwork-pic1 {
+    width: 300px;
+    height: auto;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
 }
 
 .work-title {
@@ -117,18 +168,19 @@ main {
     margin-top: 5px;
 }
 
-.made-icons {
+.icons {
     display: flex;
-    gap: 10px;
-    align-items: baseline;
-}
-
-.work-made {
-    margin: 0;
-    margin-top: 10px;
+    gap: 15px;
 }
 
 .individual-icon {
-    width: 20px;
+    margin-top: 10px;
+    width: 30px;
     height: auto;
+}
+
+.individual-icon-js {
+    margin-top: 10px;
+    width: 30px;
+    height: 30px;
 }
