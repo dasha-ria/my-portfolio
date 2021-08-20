@@ -68,3 +68,128 @@ main {
     font-size: 20px;
     margin: 0;
 }
+
+.red-triangle-full-1 {
+    width: 25px;
+    height: auto;
+    transform: rotate(230deg);
+    bottom: 100px;
+    right: 300px;
+    position: absolute;
+}
+
+.red-triangle-empty-1 {
+    width: 40px;
+    height: auto;
+    transform: rotate(15deg);
+    top: 100px;
+    right: 110px;
+    position: absolute;
+}
+
+.red-square-empty-1 {
+    width: 25px;
+    height: auto;
+    transform: rotate(260deg);
+    top: 300px;
+    right: 50px;
+    position: absolute;
+}
+
+.yellow-square-empty-1 {
+    width: 20px;
+    height: auto;
+    top: 150px;
+    right: 300px;
+    position: absolute;
+}
+
+.yellow-square-empty-2 {
+    width: 40px;
+    height: auto;
+    bottom: 50px;
+    right: 60px;
+    position: absolute;
+    transform: rotate(20deg);
+}
+
+.yellow-circle-full-1 {
+    width: 20px;
+    height: auto;
+    bottom: 350px;
+    right: 200px;
+    position: absolute;
+}
+
+.yellow-circle-empty-1 {
+    width: 30px;
+    height: auto;
+    bottom: 300px;
+    right: 450px;
+    position: absolute;
+}
+
+.yellow-square-full-1 {
+    width: 25px;
+    height: auto;
+    bottom: 200px;
+    left: 600px;
+    position: absolute;
+    transform: rotate(-10deg);
+}
+
+.red-square-empty-2 {
+    width: 30px;
+    height: auto;
+    transform: rotate(20deg);
+    bottom: 50px;
+    left: 300px;
+    position: absolute;
+}
+
+.yellow-triangle-full-1 {
+    width: 30px;
+    height: auto;
+    bottom: 150px;
+    left: 50px;
+    position: absolute;
+    transform: rotate(-15deg);
+}
+
+.red-circle-empty-1 {
+    width: 35px;
+    height: auto;
+    bottom: 400px;
+    left: 30px;
+    position: absolute;
+}
+
+.yellow-circle-full-2 {
+    width: 25px;
+    height: auto;
+    top: 120px;
+    left: 130px;
+    position: absolute;
+}
+
+.red-triangle-full-2 {
+    width: 30px;
+    height: auto;
+    top: 40px;
+    left: 40px;
+    position: absolute;
+    transform: rotate(15deg);
+}
+
+.red-square-full-1 {
+    width: 25px;
+    height: auto;
+    top: 120px;
+    left: 450px;
+    position: absolute;
+    transform: rotate(15deg);
+}
+
+footer {
+    margin-top: 60px;
+}
