@@ -193,3 +193,8 @@ main {
 footer {
     margin-top: 60px;
 }
+
+.link {
+    text-decoration: none;
+    color: black;
+}
