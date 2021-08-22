@@ -115,6 +115,11 @@ main {
     flex-direction: column;
 }
 
+.link {
+    text-decoration: none;
+    color: black;
+}
+
 .work-midborder {
     margin-top: 10px;
     width: 300px;
