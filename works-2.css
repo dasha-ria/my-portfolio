@@ -204,6 +204,7 @@ body {
     }
     .program-info-flex {
         margin-left: 5vw;
+        flex-wrap: wrap;
     }
 }
 
