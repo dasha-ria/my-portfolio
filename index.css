@@ -63,7 +63,7 @@ main {
     font-size: 25px;
     font-weight: bold;
     letter-spacing: 1px;
-    margin-top: 10vw;
+    margin-top: 100px;
     margin-bottom: 20px;
 }
 
@@ -78,7 +78,7 @@ main {
 }
 
 footer {
-    margin-top: 200px;
+    margin-top: 100px;
 }
 
 .pic-of-me {
@@ -100,4 +100,42 @@ footer {
 
 .right-grid {
     grid-area: right;
+}
+
+.mobile-view {
+    display: none;
+}
+
+@media only screen and (max-width: 600px) {
+    .grid-container {
+        display: none;
+    }
+    .mobile-view {
+        display: inline;
+    }
+    main {
+        margin-left: 5vw;
+    }
+    .intro-text-1 {
+        margin-top: 10vw;
+    }
+    .intro-text {
+        font-size: 20px;
+    }
+    .color-text {
+        font-size: 25px;
+    }
+    .small-text {
+        margin-bottom: 15px;
+        width: 93vw;
+    }
+    .pic-of-me {
+        margin-top: 10px;
+        width: 80vw;
+    }
+    .pic-flex {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
 }

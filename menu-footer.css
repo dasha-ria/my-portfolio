@@ -56,3 +56,16 @@ li {
 .contact-me {
     text-decoration: none;
 }
+
+@media only screen and (max-width: 940px) {
+    ul {
+        gap: 10vw;
+        padding-inline-start: 0px;
+    }
+    li {
+        font-size: 16px;
+    }
+    footer {
+        margin-top: 10vw;
+    }
+}

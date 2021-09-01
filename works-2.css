@@ -81,7 +81,8 @@ main {
 .works-flex {
     margin-top: 30px;
     display: flex;
-    gap: 100px;
+    gap: 10vw;
+    flex-wrap: wrap;
 }
 
 .work-border {
@@ -188,4 +189,36 @@ main {
     margin-top: 10px;
     width: 30px;
     height: 30px;
+}
+
+@media only screen and (max-width: 597px) {
+    .work-menu {
+        margin-left: 5vw;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    .work-menu {
+        width: 80vw;
+        min-width: 280px;
+        height: 45px;
+    }
+    .work-category-button-active {
+        width: 20vw;
+        min-width: 70px;
+        height: 45px;
+        padding: 0;
+    }
+    .work-category-button-border {
+        width: 20vw;
+        min-width: 70px;
+        height: 45px;
+        padding: 0;
+    }
+    .work-category-button-noborder {
+        width: 20vw;
+        min-width: 70px;
+        height: 45px;
+        padding: 0;
+    }
 }

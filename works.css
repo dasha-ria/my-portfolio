@@ -6,16 +6,13 @@ body {
     margin: 0 auto;
 }
 
-main {
-    margin-left: 50px;
-}
-
 .work-menu {
     border: 2px solid #FE555E;
     width: 400px;
     height: 35px;
     border-radius: 8px;
     margin-top: 80px;
+    margin-left: 50px;
 }
 
 .work-menu-flex {
@@ -58,6 +55,7 @@ main {
     display: flex;
     gap: 15px;
     align-items: center;
+    margin-left: 50px;
 }
 
 .procreate-icon {
@@ -68,32 +66,91 @@ main {
 .pics {
     margin-top: 30px;
     display: flex;
-    gap: 110px;
+    /* gap: 110px; */
+    gap: 8vw;
     align-items: baseline;
+    flex-wrap: wrap;
+    margin-left: 50px;
 }
 
 .pics-row-2 {
     margin-top: 50px;
     display: flex;
-    gap: 110px;
+    gap: 8vw;
     align-items: baseline;
+    flex-wrap: wrap;
+    margin-left: 50px;
 }
 
 .pics-row-3 {
     margin-top: 50px;
     display: flex;
-    gap: 110px;
+    gap: 8vw;
     align-items: baseline;
+    flex-wrap: wrap;
+    margin-left: 50px;
 }
 
 .vertical-pic {
-    width: 200px;
+    /* width: 200px; */
+    width: 22vw;
     height: auto;
+    min-width: 200px;
     border-radius: 10px;
 }
 
 .horizontal-pic {
-    width: 300px;
+    width: 27vw;
     height: auto;
+    min-width: 300px;
     border-radius: 10px;
+}
+
+@media only screen and (max-width: 597px) {
+    .vertical-pic {
+        width: 60vw;
+    }
+    .horizontal-pic {
+        width: 80vw;
+    }
+    .pics,
+    .pics-row-2,
+    .pics-row-3 {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-left: 0;
+    }
+    .work-menu {
+        margin-left: 5vw;
+    }
+    .procreate-info {
+        margin-left: 5vw;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    .work-menu {
+        width: 80vw;
+        min-width: 280px;
+        height: 45px;
+    }
+    .work-category-button-active {
+        width: 20vw;
+        min-width: 70px;
+        height: 45px;
+        padding: 0;
+    }
+    .work-category-button-border {
+        width: 20vw;
+        min-width: 70px;
+        height: 45px;
+        padding: 0;
+    }
+    .work-category-button-noborder {
+        width: 20vw;
+        min-width: 70px;
+        height: 45px;
+        padding: 0;
+    }
 }
