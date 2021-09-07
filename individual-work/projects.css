@@ -1,0 +1,175 @@
+* {
+  font-family: "Open Sans", sans-serif;
+}
+
+main {
+  /* margin-left: 50px; */
+  margin-top: 50px;
+}
+
+.mobile-ux {
+  width: 25vw;
+  min-width: 200px;
+  max-width: 300px;
+  height: auto;
+  border-radius: 20px;
+  border: 3px solid black;
+}
+
+.foodora-logomobile {
+  width: 20vw;
+  height: auto;
+  border-radius: 10px;
+}
+
+.logo-flex {
+  margin-top: 5vh;
+  display: flex;
+  gap: 10vw;
+  justify-content: center;
+  align-items: center;
+}
+
+.pic-flex {
+  margin-top: 5vh;
+  display: flex;
+  gap: 5vw;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.foodora-logo {
+  width: 20vw;
+  height: auto;
+}
+
+.espresso-logo {
+  width: 18vw;
+  height: auto;
+}
+
+.espresso-logo-flex {
+  margin-top: 5vh;
+  margin-bottom: 5vh;
+  display: flex;
+  gap: 5vw;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.espresso-picmid {
+  height: 20vw;
+  width: auto;
+}
+
+.espresso-pics-flex {
+  display: flex;
+  justify-content: center;
+}
+
+.espressowindow {
+  margin-top: 5vh;
+  width: 45vw;
+  height: auto;
+  margin-bottom: 2vh;
+}
+
+.hamasushi-logo1 {
+  width: 35vw;
+  height: auto;
+}
+
+.hamasushi-logo2 {
+  height: 45vw;
+  width: auto;
+}
+
+.hamasushi-logo-flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10vw;
+}
+
+.hamasushi-pic-row-1 {
+  display: flex;
+  justify-content: center;
+}
+
+.hamasushi-pic1 {
+  margin-top: 5vh;
+  height: 25vw;
+  width: auto;
+}
+
+.hamasushi-pic {
+  margin-top: 5vh;
+  width: 35vw;
+  height: auto;
+}
+
+.hamasushi-pic-row-2 {
+  display: flex;
+  justify-content: center;
+  gap: 5vw;
+}
+
+.hamasushi-pic-row-3 {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 3vh;
+}
+
+.hamasushi-menu {
+  margin-top: 5vh;
+  height: 40vw;
+  width: auto;
+}
+
+.bravo-logo-flex,
+.bravo-pic-row-1 {
+  display: flex;
+  justify-content: center;
+  gap: 5vw;
+}
+
+.bravo-logo {
+  margin-top: 5vh;
+  width: 30vw;
+  height: auto;
+}
+
+.bravo-pic {
+  margin-top: 5vh;
+  height: 40vw;
+  width: auto;
+}
+
+.bravo-pic-row-2 {
+  display: flex;
+  justify-content: center;
+}
+
+.bravo-mockup {
+  width: 60vw;
+  height: auto;
+  margin-top: 5vh;
+}
+
+.back-flex {
+  margin-left: 5vw;
+  display: flex;
+  gap: 0.5vw;
+}
+
+.back-link {
+  text-decoration: none;
+  color: black;
+}
+
+footer {
+  margin-top: 2vh;
+  margin-bottom: 2vh;
+}
