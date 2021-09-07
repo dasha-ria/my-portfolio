@@ -76,6 +76,11 @@ body {
     height: 41px;
 }
 
+.work-link {
+    text-decoration: none;
+    color: black;
+}
+
 .works-flex {
     margin-top: 30px;
     display: flex;
@@ -168,6 +173,24 @@ body {
     border-top-right-radius: 8px;
 }
 
+.uxwork-pic2 {
+    width: auto;
+    height: 185px;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+}
+
+.uxwork-pic-logo {
+    width: 120px;
+    height: 120px;
+    margin-top: 30px;
+    border-radius: 10px;
+}
+
+.img-foodora-flex {
+    display: flex;
+}
+
 .work-title {
     margin: 0;
     margin-top: 5px;
@@ -188,6 +211,11 @@ body {
     margin-top: 10px;
     width: 30px;
     height: 30px;
+}
+
+footer {
+    margin-top: 10vw;
+    margin-bottom: 2vw;
 }
 
 @media only screen and (max-width: 737px) {

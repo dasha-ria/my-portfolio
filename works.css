@@ -129,6 +129,11 @@ body {
     }
 }
 
+footer {
+    margin-top: 2vw;
+    margin-bottom: 1vw;
+}
+
 @media only screen and (max-width: 480px) {
     .work-menu {
         width: 80vw;
