@@ -188,3 +188,15 @@ footer {
   gap: 5vh;
   margin-bottom: 5vh;
 }
+
+.leve-pic {
+  margin-top: 5vh;
+  width: 60vw;
+  height: auto;
+  margin-bottom: 5vh;
+}
+
+.leve-flex {
+  display: flex;
+  justify-content: center;
+}
