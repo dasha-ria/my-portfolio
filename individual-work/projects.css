@@ -173,3 +173,18 @@ footer {
   margin-top: 2vh;
   margin-bottom: 2vh;
 }
+
+.mouture-pics {
+  width: 45vw;
+  height: auto;
+}
+
+.mouture-flex {
+  margin-top: 5vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 5vh;
+  margin-bottom: 5vh;
+}
